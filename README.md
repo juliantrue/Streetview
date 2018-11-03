@@ -1,4 +1,4 @@
-#Streetview
+# Streetview
 
 This is a quick and dirty python module designed to make interacting with the Google Streetview API much easier.
 
@@ -15,6 +15,6 @@ which also returns one image in each Cardinal direction given a search string ma
 
 Both return a list of images or if the **save_to** parameter is specified, it will save to the specified file.
 
-#Requirements
+# Requirements
 * requests==2.20.0
 * opencv-python==3.4.2.17
