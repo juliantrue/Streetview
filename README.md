@@ -3,6 +3,13 @@
 This is a quick and dirty python module designed to make interacting with the Google Streetview API much easier.
 
 # Usage
+To install:
+For now best practice is to download this repo and import it from the file locally rather than a global install. Simply download the files and access the module with
+
+    from streetview import Core
+
+A full working example can be found in example.py
+
 This module exposes two main methods:
 
     get_by_location(BASE_URL, API_KEY, location, save_to=None, size=(600,400), signature=None))
